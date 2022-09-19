@@ -3,7 +3,9 @@ package PBO_M2;
 
 public class Karyawan {
     public String nik, bagian;
-    public int kehadiran, gaji_per_hari, totalGaji;
+    public int kehadiran; 
+    public int gaji_per_hari;
+    public int totalGaji;
 
     //seter
     public void setNik(String nik) {
